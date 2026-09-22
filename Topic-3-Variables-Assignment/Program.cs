@@ -18,7 +18,9 @@
             int number = 29;
             double price = 2.99;
             string course = "Computer Science";
-
+            double radius = 15;
+            double A = 2;
+            double B = 4;
 
             Console.WriteLine("This is room #" + number);
             Console.WriteLine();
@@ -29,14 +31,18 @@
 
             string firstname;
             string lastname;
-            string year;
+            int year;
 
             firstname = "Easton ";
             lastname = "Powers ";
-            year = "2027";
+            year = 2027;
 
             Console.Write("My name is " + firstname + lastname); 
             Console.WriteLine("and I graduate in " + year);
+            Console.WriteLine();
+            Console.WriteLine("The area of the circle is " + Math.Round(Math.Pow(radius, 2) * Math.PI, 2));
+            Console.WriteLine();
+            Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(A, 2) + Math.Pow(B, 2)), 2));
 
         }
     }
