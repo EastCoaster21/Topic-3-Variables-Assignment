@@ -42,6 +42,7 @@
             Console.WriteLine();
             Console.WriteLine("The area of the circle is " + Math.Round(Math.Pow(radius, 2) * Math.PI, 2));
             Console.WriteLine();
+            //Console.WriteLine("I chose to do the pythagorean theorum");
             Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(A, 2) + Math.Pow(B, 2)), 2));
 
         }
